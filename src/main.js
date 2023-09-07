@@ -1,8 +1,18 @@
-import Vue from 'vue'
-import App from './App.vue'
+/*
+ * @Author       : 张向荣
+ * @Date         : 2023-09-06
+ * @LastEditTime : 2023-09-06
+ *
+ */
+import Vue from "vue";
+import App from "./App.vue";
+import router from "./router";
 
-Vue.config.productionTip = false
+import "./plugins";
+
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+    router,
+    render: h => h(App),
+}).$mount("#app");

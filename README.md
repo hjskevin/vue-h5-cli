@@ -1,24 +1,6 @@
-# vue-h5-cli
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 曼荼罗移动开发脚手架
+    ###1、使用方式
+    ```
+        npm install 
+        npm run serve
+    ```
