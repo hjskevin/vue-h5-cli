@@ -1,6 +1,8 @@
-# 曼荼罗移动开发脚手架
-    ###1、使用方式
-    ```
-        npm install 
-        npm run serve
-    ```
+<!--
+ * @Author       : 张向荣
+ * @Date         : 2023-09-08
+ * @LastEditTime : 2023-09-08
+ * 
+-->
+# vue-h5-cli
+基于vue-cli的移动端快速开发脚手架
