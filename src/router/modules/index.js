@@ -4,27 +4,17 @@
  * @LastEditTime : 2023-09-08
  *
  */
-export const routes = [
+const routes = [
     {
-        path: "/inspectReport",
-        name: "inspectReport",
+        path: "/",
         component: () => import("@/views/index"),
-        meta: {
-            keepAlive: false,
-            showHeader: false,
-            title: "检验报告明细",
-            noAuth: true,
-        },
+        meta: {},
     },
     {
-        path: "/inspectReport",
-        name: "inspectReport",
-        component: () => import("@/views/index"),
-        meta: {
-            keepAlive: false,
-            showHeader: false,
-            title: "检验报告明细",
-            noAuth: true,
-        },
+        path: "/my",
+        component: () => import("@/views/my/my"),
+        meta: {},
     },
 ];
+
+export default routes;

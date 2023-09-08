@@ -5,5 +5,5 @@
  * 
 -->
 <template>
-    <div></div>
+    <div>首页</div>
 </template>
